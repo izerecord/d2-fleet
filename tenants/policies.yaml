@@ -16,8 +16,8 @@ spec:
           fluxcd.controlplane.io/role: "policy"
       data:
         sources: >-
-          https://github.com/controlplaneio-fluxcd/
-          oci://ghcr.io/controlplaneio-fluxcd/
+          https://github.com/izerecord/
+          oci://ghcr.io/izerecord/
           oci://ghcr.io/stefanprodan/charts/
           oci://registry-1.docker.io/bitnamicharts/
     - apiVersion: admissionregistration.k8s.io/v1
