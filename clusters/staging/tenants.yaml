@@ -7,7 +7,7 @@ spec:
   serviceAccountName: flux-operator
   interval: 12h
   retryInterval: 3m
-  path: ./tenants
+  path: ./tenants/staging-1
   prune: true
   sourceRef:
     kind: OCIRepository
